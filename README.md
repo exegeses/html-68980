@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/HTML-F38454?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS-1490fc?&style=for-the-badge&logo=css3&logoColor=white">
 
 > Curso: Desarrollo Web con HTML |  
-> Miércoles y Viernes de 08hs a 10hs (Arg) | 
+> Miércoles y Viernes de 08hs a 10hs (Arg) |   
 > 9 clases desde 15/09/2023 hasta 18/10/2023 |  
 > Código: 68980 |  
 > sensei: Marcos Pinardi |  
