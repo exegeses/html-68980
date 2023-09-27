@@ -1,0 +1,13 @@
+body{
+    font-family: sans-serif;
+    background-color: hsl(73, 40%, 22%);
+}
+
+#primero{
+    width: 600px;
+    height: 370px;
+    margin: 64px auto;
+
+    background-image: url(../imgs/bg.jpg);
+}
+
