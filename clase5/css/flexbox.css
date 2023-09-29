@@ -1,0 +1,58 @@
+body{
+    background-color: #313442;
+    color: hsl(229, 15%, 90%);
+    font-family: Tahoma;
+    font-size: 20px;
+}
+main{
+    width: 768px;
+    margin: 32px auto;
+}
+
+#contenedor{
+    background-color: hsl(229, 15%, 10%);
+    height: 350px;
+    display: flex;
+}
+
+    article{
+        width: 128px;
+        height: 128px;
+        border: 1px solid #fff;
+        background-color: hsl(229, 15%, 55%);
+
+        text-align: center;
+    }
+
+#contenedor2{
+    margin: 64px 0px;
+    background-color: hsl(229, 15%, 10%);
+    height: 350px;
+
+    display: flex;
+    /* distribución en el eje x (horizontal) */
+    /* justify-content: start; /* predeterminado - a izquierda */
+    /* justify-content: end; /* a la derecha */
+    justify-content: center;
+}
+
+#contenedor3{
+    margin: 64px 0px;
+    background-color: hsl(229, 15%, 10%);
+    height: 350px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#contenedor4{
+    margin: 64px 0px;
+    background-color: hsl(229, 15%, 10%);
+    height: 350px;
+
+    display: flex;
+    /* distribución en el eje y (vertical) */
+    /* align-items: start;  /* predeterminado:  arriba */
+    /* align-items: end; /* abajo */
+    align-items: center;
+}

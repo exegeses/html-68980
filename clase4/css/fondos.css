@@ -11,3 +11,11 @@ body{
     background-image: url(../imgs/bg.jpg);
 }
 
+#segundo{
+    width: 600px;
+    height: 370px;
+    margin: 64px auto;
+
+    background: rgb(197,121,143);
+background: linear-gradient(0deg, rgba(197,121,143,1) 0%, rgba(112,143,191,1) 100%);
+}
