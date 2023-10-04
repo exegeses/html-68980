@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
+    color: #3c3c3c;
 }
 
 header{
@@ -19,3 +26,58 @@ header{
         color: #3c3c3c;
         padding: 8px;
     }
+
+/* main */
+main{
+    width: 1024px;
+    margin: auto;  /* centrar el contenedor */
+    min-height: 600px;
+}
+
+/* hero banner */
+#hero-banner{
+    height: 440px;
+    background-image: url(../imgs/bg-hero.jpg);
+    display: flex;
+    align-items: center; /* centrar CONTENIDO en el eje vertical */
+    justify-content: center; /* centrar CONTENIDO en el eje horizontal */
+}
+    #hero-banner h1{
+        color: #fff;
+        font-size: 32px;
+    }
+
+/* servicios */
+
+#servicios{
+    height: 464px;
+    margin-top: 56px;
+    padding: 32px;
+    background-color: #FAE9E2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    #servicios h3{
+        width: 100%;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    #servicios a{
+        text-decoration: none;
+        color: #3c3c3c;
+    }
+        #servicios a article{
+            width: 284px;
+            background-color: #fff;
+        }
+
+            #servicios article h2{
+                font-size: 24px;
+                font-weight: 400;
+                margin: 16px;
+            }
+            #servicios article p{
+                margin: 24px 16px;
+            }

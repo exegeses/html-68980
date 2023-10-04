@@ -13,6 +13,7 @@ main{
     background-color: hsl(229, 15%, 10%);
     height: 350px;
     display: flex;
+    flex-wrap: wrap; /* respeta los anchos  */
 }
 
     article{
