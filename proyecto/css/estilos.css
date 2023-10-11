@@ -88,6 +88,43 @@ video{
     width: 1024px;
 }
 
+/* sección promos */
+#promos{
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #FED8D2;
+    display: grid;
+    row-gap: 40px; /* separación entre articles */
+}
+    #promos article{
+        display: flex;
+    }
+        #promos article div{
+            padding: 16px 32px;
+            background-color: #fff;
+        }
+            #promos article div h2{
+                font-weight: 400;
+            }
+            #promos article div span{
+                color: #E14536;
+                display: inline-block;
+                margin-top: 20px;
+                margin-bottom: 40px;
+            }
+            #promos article div a{
+                display: block;
+                width: 160px;
+                padding: 8px;
+                text-align: center;
+                margin: 44px auto 0px auto;
+                color: #fff;
+                text-decoration: none;
+                background-color: #E14536;
+                border-radius: 8px;
+            }
+
+
 
 footer{
     width: 1024px;

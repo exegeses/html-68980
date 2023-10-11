@@ -1,0 +1,25 @@
+:root{
+    --text: #d4d4d4;
+    --background: #201d1d;
+    --primary: #f6cd74;
+    --secondary: #c1953e;
+    --accent: ##F1B172; /* #a5751d; */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Tahoma;
+    background-color: var(--background);
+    color: var(--text);
+}
+    main{
+        width: 1200px;
+        margin: auto;
+    }
+
+    #contenedor{
+        display: flex;
+    }
